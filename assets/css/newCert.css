@@ -1,0 +1,362 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+/* @media (min-width: 1440px) {
+  section.the-whole-cert-page-2023 {
+    width: 1092px;
+  }
+} */
+
+/*basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*form styles*/
+
+section.the-whole-cert-page-2023 .wholeSecContainingForm {
+  width: 601px;
+  margin: 50px auto;
+  background: #fffbfc;
+  padding: 34px 56px;
+  border-radius: 8px;
+}
+
+section.the-whole-cert-page-2023 #msform fieldset {
+  position: relative;
+}
+/*Hide all except first fieldset*/
+
+section.the-whole-cert-page-2023 #msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+/*inputs*/
+
+section.the-whole-cert-page-2023 #msform input,
+section.the-whole-cert-page-2023 #msform textarea {
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  font-size: 13px;
+  background: #ffecf1;
+  border-color: transparent;
+}
+
+/*buttons*/
+
+section.the-whole-cert-page-2023 #msform .action-button {
+  width: 200px;
+  background: #f84874;
+  font-weight: 500;
+  color: white;
+  border: 0 none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  color: #f7fafc;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Inter";
+  height: 45px;
+}
+
+section.the-whole-cert-page-2023 #msform a.submit.action-button {
+  padding: 12px 60px;
+}
+
+/*headings*/
+section.the-whole-cert-page-2023 .fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+section.the-whole-cert-page-2023 #msform h3.fs-subtitle-ex {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.5169px;
+  line-height: 20px;
+  color: #000000;
+}
+
+section.the-whole-cert-page-2023 #msform a.the-are-you-a-std {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5277px;
+  line-height: 20px;
+  color: #4a5568;
+  display: block;
+  margin-bottom: 20px;
+}
+section.the-whole-cert-page-2023 #msform a.the-are-you-a-std span {
+  color: #f84874;
+  font-weight: 700;
+}
+
+section.the-whole-cert-page-2023 .fs-subtitle {
+  font-size: 16px;
+  color: #4a5568;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 20px;
+  font-family: "Inter";
+}
+
+/*progressbar*/
+
+section.the-whole-cert-page-2023 #progressbar {
+  margin: 0px auto;
+  width: 550px;
+}
+
+section.the-whole-cert-page-2023 ul#progressbar li.active {
+  background: transparent !important;
+  color: #3182ce !important;
+}
+
+section.the-whole-cert-page-2023 #progressbar li {
+  list-style-type: none;
+  color: #828282;
+  text-transform: capitalize;
+  font-size: 16px;
+  float: left;
+  position: relative;
+  line-height: 20px;
+}
+
+section.the-whole-cert-page-2023 ul#progressbar li img {
+  margin: 0 10px;
+}
+
+section.the-whole-cert-page-2023 form#msform label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.2432px;
+  line-height: 16px;
+  color: #718096;
+}
+
+section.the-whole-cert-page-2023 .for-the-long-country-select select {
+  background-color: #ffecf1;
+  border-radius: 8px;
+  width: 298px;
+  height: 48px;
+  float: right;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.8524px;
+  line-height: 18px;
+  color: #2d3748;
+}
+
+section.the-whole-cert-page-2023 .for-the-long-country-select {
+  margin-bottom: 20px;
+}
+
+/* radio */
+
+section.the-whole-cert-page-2023 form#msform .the-cert-with-trans {
+  margin: 40px 0;
+  background: #fff;
+  padding: 15px;
+  gap: 18px;
+  border-radius: 3px;
+}
+
+section.the-whole-cert-page-2023
+  form#msform
+  .the-cert-with-trans
+  label.for-blocking {
+  display: block;
+  margin: 15px 0;
+}
+
+.the-cert-with-trans .the-inside-radio {
+  border: 1px solid #eaeaea;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+section.the-whole-cert-page-2023 form#msform .the-payments-conrol h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.2135px;
+  line-height: 16px;
+  color: #2d3748;
+}
+
+.the-payments-conrol {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 30px 0px;
+}
+
+section.the-whole-cert-page-2023
+  form#msform
+  .the-cert-with-trans
+  label.for-blocking
+  span {
+  float: right;
+}
+
+section.the-whole-cert-page-2023 form#msform label.for-payment {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.8688px;
+  line-height: 18px;
+  color: #2d3748;
+}
+
+section.the-whole-cert-page-2023 form#msform .for-flex-ex {
+  margin-left: 40px;
+}
+
+section.the-whole-cert-page-2023 form#msform label.for-payment input {
+  position: absolute;
+  left: 85px;
+}
+
+.the-cert-with-trans input[type="radio"]:checked + .the-inside-radio {
+  border: 1px solid #f84874;
+  color: #f84874;
+}
+
+.the-cert-with-trans input[type="radio"]:checked + .the-inside-radio span {
+  color: #000000;
+}
+
+section.the-whole-cert-page-2023
+  form#msform
+  .the-cert-with-trans
+  input[type="radio"] {
+  display: contents;
+}
+
+section.the-whole-cert-page-2023 form#msform .the-cert-with-trans h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.5277px;
+  line-height: 20px;
+  color: #000000;
+}
+
+section.the-whole-cert-page-2023 form#msform .the-cert-with-trans h3 {
+  margin: 0 0 15px 0;
+}
+
+section.the-whole-cert-page-2023 form#msform .the-inside-radio span {
+  padding: 2px;
+  background: #f2f6f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+section.the-whole-cert-page-2023 form#msform .for-flex-ex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Right Side */
+
+section.the-whole-cert-page-2023 .the-what-user-has-and-to-pay {
+  background: #fffbfc;
+  border-radius: 6.66px;
+  padding: 35px;
+  margin-top: 50px;
+}
+
+section.the-whole-cert-page-2023 .the-what-user-has label {
+  color: #4a5568;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.5323px;
+  line-height: 20px;
+}
+
+section.the-whole-cert-page-2023 .the-what-user-has select#courses {
+  background-image: url(#);
+  background-color: #ffecf1;
+  border-radius: 4px;
+  color: #909090;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  width: 229px;
+  height: 49px;
+  background-position: 95% 50%;
+  background-size: auto 20%;
+  padding: 0px 35px 0 15px;
+}
+
+section.the-whole-cert-page-2023 .right-width-control-cg .col-md-4 {
+  margin-left: -135px;
+}
+
+section.the-whole-cert-page-2023 .right-width-control-cg .the-cert-sample {
+  margin: 30px 0;
+}
+
+section.the-whole-cert-page-2023 .right-width-control-cg .modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal content */
+section.the-whole-cert-page-2023 .right-width-control-cg .modal img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Close button */
+section.the-whole-cert-page-2023 .right-width-control-cg .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+/* Close button hover effect */
+section.the-whole-cert-page-2023 .right-width-control-cg .close:hover {
+  color: #999;
+}
